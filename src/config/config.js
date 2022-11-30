@@ -1,38 +1,8 @@
 const params = {
-  appid: 'wxb98e44f5e7a956a0',
-  secret: 'a55ef17ddaa3c5bf0cabd344e6c7d17e',
-  touser: 'ohqRj6EBIUp4gzIQ3mUbULM9uQnQ',
-  template_id: 'LvDuTb8njKAv-nG_2L2GT-bkZPCJi_xmmk1Zn5zRF1U',
-}
-
-const listConfig = {
-  data: {
-    nowDate: {
-      value: '今天是 2022/08/20 周天 ',
-      color: '#57E6E2',
-    },
-    city: {
-      value: '北京',
-      color: '#9CA2A0',
-    },
-    low: {
-      value: '29℃',
-      color: '#7CD47D',
-    },
-    high: {
-      value: '37℃',
-      color: '#CBA476',
-    },
-    loveDate: {
-      value: '999',
-      color: '#AEC5C8',
-    },
-
-    txt: {
-      value: '我习惯在包里藏一瓶百无聊赖，打发人间的白云和苍狗设计睡着的未来',
-      color: '#3C4244',
-    },
-  },
+  appid: 'wx224187fd118a1a31',
+  secret: '67caa4616bf30b601077543ffff37bab',
+  touser: 'oFqGO5zE3gXuBGdJa5xs_3MtxddA',//要推送的微信号
+  template_id: 'fjkNvM61gFiOUtAhLfNPFhFPdO2aTuRaqOXmU5YjbCA',//推送的模板id
 }
 
 /* 上述代码是需要自定义的配置项 */
@@ -60,6 +30,5 @@ if (verifyEmpty()) {
 }
 
 module.exports = {
-  params,
-  listConfig,
+  params
 }

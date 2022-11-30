@@ -7,7 +7,7 @@ function sendMessage(data) {
     {
       touser: data.touser,
       template_id: data.template_id,
-      data: data.data || {},
+      data: data || {},
     }
   )
 }
